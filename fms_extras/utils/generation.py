@@ -19,7 +19,7 @@ def __execute_prefill(
     """Execute the prefill and return information needed for first prediction.
 
     By prefill, we are referring to the initial forward pass on the prompt tokens prior
-    to any computed keys/values added to the cache
+    to any computed keys/values added to the cache.
 
     Args:
         model: Union[nn.Module, Callable]
